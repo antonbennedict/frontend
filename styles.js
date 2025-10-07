@@ -52,7 +52,36 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         padding: 20,
+    },
+
+    userCard: {
+        backgroundColor: '#fff', 
+        padding: 15, 
+        marginVertical: 5, 
+        borderRadius: 8, 
+        borderLeftWidth: 5, 
+        borderLeftColor: '#007bff', 
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 1 },
+        shadowOpacity: 0.1,
+        shadowRadius: 2,
+        elevation: 2, 
+    },
+   
+    detailText: {
+        fontSize: 14,
+        color: '#333',
+        lineHeight: 22, 
+    },
+ 
+    nameText: {
+        fontSize: 16,
+        fontWeight: 'bold',
+        marginBottom: 4,
+        color: '#1a1a1a',
     }
+
+    
     
    
 });

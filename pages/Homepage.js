@@ -15,6 +15,15 @@ export default function Homepage({navigation}) {
                     onPress={() => navigation.navigate('Register')}
                 />
             </View>
+
+            <View style={Styles.buttonWrapper}> 
+                <Button
+                    title="View User"
+                    onPress={() => navigation.navigate('UserList')}
+                />
+            </View>
+
+            
         </View>
     );
 }
