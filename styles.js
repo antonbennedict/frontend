@@ -79,8 +79,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginBottom: 4,
         color: '#1a1a1a',
-    }
-
+    },
     
     
    
